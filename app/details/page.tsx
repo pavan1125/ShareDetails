@@ -34,56 +34,57 @@ const page = () => {
         <div className="min-h-screen animated-gradient text-white flex flex-col items-center justify-center p-6">
 
             <div className="flex flex-col items-center text-center mb-10 px-4">
-                <div className="text-xl font-semibold mb-4">
+                <div className="text-xl sm:text-2xl font-semibold mb-4">
                     Welcome to
                 </div>
-                <div className="text-3xl sm:text-5xl font-bold mb-4">
+                <div className="text-3xl sm:text-5xl font-bold mb-4 whitespace-nowrap">
                     Mirage Creative Studios
                 </div>
-                <div className="text-xl sm:text-2xl italic mb-6">
+                <div className="text-xl sm:text-2xl italic mb-6 whitespace-nowrap">
                     "Crafting stories"
                 </div>
-                <div className="text-lg mb-6">
+                <div className="text-lg sm:text-xl mb-6">
                     Want to know more about us? Explore us
                 </div>
             </div>
 
+            {/* Icons section */}
             <div className="flex flex-wrap justify-center gap-8">
                 <div
-                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer"
+                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer sm:w-16 w-12"
                     onClick={onWhatsAppClick}
                 >
-                    <AiOutlineWhatsApp size={"45"} className="sm:hover:scale-125" />
+                    <AiOutlineWhatsApp size={"40"} className="sm:w-20 w-12" />
                 </div>
                 <div
-                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer"
+                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer sm:w-16 w-12"
                     onClick={onInstagramClick}
                 >
-                    <AiFillInstagram size={"45"} className="sm:hover:scale-125" />
+                    <AiFillInstagram size={"40"} className="sm:w-20 w-12" />
                 </div>
                 <div
-                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer"
+                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer sm:w-16 w-12"
                     onClick={onBehanceClick}
                 >
-                    <AiFillBehanceSquare size={"45"} className="sm:hover:scale-125" />
+                    <AiFillBehanceSquare size={"40"} className="sm:w-20 w-12" />
                 </div>
                 <div
-                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer"
+                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer sm:w-16 w-12"
                     onClick={onLinkedInClick}
                 >
-                    <AiFillLinkedin size={"45"} className="sm:hover:scale-125" />
+                    <AiFillLinkedin size={"40"} className="sm:w-20 w-12" />
                 </div>
                 <div
-                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer"
+                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer sm:w-16 w-12"
                     onClick={onMailClick}
                 >
-                    <MdEmail size={"45"} className="sm:hover:scale-125" />
+                    <MdEmail size={"40"} className="sm:w-20 w-12" />
                 </div>
                 <div
-                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer"
+                    className="hover:scale-110 transform transition-all duration-200 cursor-pointer sm:w-16 w-12"
                     onClick={onPhoneClick}
                 >
-                    <FaPhone size={"40"} className="sm:hover:scale-125" />
+                    <FaPhone size={"40"} className="sm:w-20 w-12" />
                 </div>
             </div>
         </div>
